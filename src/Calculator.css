@@ -75,7 +75,7 @@
     cursor: pointer;
 }
 
-.pad-btn:hover {
+.pad-btn:active {
     background-color: #7ef219;
     transform: scale(1.1);
     font-size: 32px;
@@ -101,4 +101,11 @@
 .Error_note {
     color: var(--error-note);
     font-family: cursive;
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        width: 100%;
+        margin: auto 10px;
+    }
 }
